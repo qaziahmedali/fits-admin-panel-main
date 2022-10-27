@@ -1,0 +1,16 @@
+@import "../../common/Variables.scss";
+
+.header {
+  .dropdown-toggle:after {
+    display: none;
+  }
+  .dropdown-menu {
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
+    .dropdown-item {
+      &:active {
+        background-color: #fff;
+      }
+    }
+  }
+}
